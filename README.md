@@ -15,7 +15,7 @@ Testing it against API monitor by Rohitab shows the following detection for Nati
 
 ![NtRemoteLoad4](https://github.com/florylsk/NtRemoteLoad/assets/46110263/86cc58e0-e3dd-47f5-9f00-8da8e1d74933)
 
-Which is fairly good, though NtReadFile could also be hidden but I have not seen a reason to change it yet.
+Which is fairly good, though NtCreateFile could also be hidden but I have not seen a reason to change it yet.
 
 On the other hand, testing it against Defender for Endpoint EDR trial with a Havoc C2 beacon payload yields the following detection:
 ### Executing the payload
